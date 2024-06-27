@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+	<id><![CDATA[CookieYes (Default & Journal3)]]></id>
+	<name><![CDATA[CookieYes (Default & Journal3)]]></name>
+	<code>knns-cookieyes</code>
+	<version>1.0.0</version>
+	<author><![CDATA[<font color="#7F458C"><b>kanenas.net (aka Nikolas Branis)</b></font> - nbran@kanenas.net]]></author>
+	<link>https://kanenas.net/</link>
+	<file path="catalog/view/theme/*/template/common/header.twig" error="log">
+		<operation error="skip">
+			<search><![CDATA[<base href="{{ base }}" />]]></search>
+			<add position="after"><![CDATA[
+{# kanenas: knns-cookieyes.ocmod.xml (start) << #}
+<!-- Start cookieyes banner -->
+<script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/XXXXXXXXXXXXXXXX/script.js"></script>
+<!-- End cookieyes banner -->
+{# kanenas: knns-knns-cookieyes.ocmod.xml (end) << #}
+			]]></add>
+		</operation>
+	</file>
+</modification>
