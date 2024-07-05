@@ -1,2 +1,2 @@
-# CookieYes (Default &amp; Journal3
+# CookieYes (Default &amp; Journal3)
 **Opencart**: v3.x
